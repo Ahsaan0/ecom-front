@@ -8,7 +8,7 @@ export default function Home() {
   const [editId, setEditId] = useState(null);
   const [editForm, setEditForm] = useState({ name: '', price: '' });
 
-  const API_URL = 'https://nextjs-product-pearl.vercel.app/'; // Express Backend URL
+  const API_URL = 'https://nextjs-product-pearl.vercel.app'; // Express Backend URL
 
   // Fetch products on component mount
   useEffect(() => {
